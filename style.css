@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.contaner {
+    height: 2150px;
+    width: 1490px;
+}
+
+.header {
+    height: 30px;
+    background-color: orangered;
+    display: flex;
+       justify-content: space-evenly;
+
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.search {
+    background-color: orangered;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search img {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    color: white;
+    z-index: 80px;
+    /* padding-left:80px; */
+
+}
+
+.search a {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.search input {
+    width: 500px;
+    height: 20px;
+    padding-left: 20px;
+    border-radius: 100px;
+}
+
+.selaidar img {
+    display: flex;
+    width: 1490px;
+    height: 300px;
+}
+/* head closse */
+.continer {
+    height: 200px;
+    width: 250px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 3px;
+    border: 3px solid;
+}
+
+.contaner .pic h3 {
+    text-decoration: none;
+
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* pic closse */
+.sale {
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.sale img {
+    width: 1200px;
+    border-radius: 30px;
+}
+
+.item img {
+    width: 200px;
+    height: 150px;
+    
+    margin-top: 3px;
+}
+/* pffer closse */
+.main-footer {
+    height: 350px;
+    width: 1400px;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center; 
+}
+.footer-itam{
+    padding-left:20px ;
+}
+.footer-itam h3{
+    padding: 20px;
+    color: orangered;
+}
+.footer-itam-2{
+    padding-left:50px ;
+}
+.footer-itam-2 h3{
+    padding: 20px;
+    color: orangered;
+}
+.footer-image{
+    display: flex;
+}
+.footer-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-image p{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.footer-image-itam img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-itam-3{
+    padding-left: 30px;
+    justify-content: center;
+}
+.footer-itam-3 h3{
+    padding: 10px;
+    color: orangered;
+}
+.footer-itam-4{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.footer-itam-4 h3{
+    padding: 10px;
+    color: orangered;
+}
